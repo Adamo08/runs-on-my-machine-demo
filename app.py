@@ -6,6 +6,6 @@ match int(user_input):
     case 3 | 4 :
         print("Chwiya. pip install coffee --upgrade")
     case 5:
-        print("Ingali3")
+        print("Ingali3. Sir tn3es")
     case _:
-        print("Mn nyta!")
+        print("Mn nytek!")

@@ -94,7 +94,11 @@ git checkout main
 
 ### Clone and Navigate:
 ```bash
-cd /home/adamo/docker-workshop/first
+# Clone the repository
+git clone https://github.com/Adamo08/runs-on-my-machine-demo.git
+
+# Navigate to the project directory
+cd runs-on-my-machine-demo
 ```
 
 ---

@@ -4,15 +4,15 @@ A hands-on workshop demonstrating the classic "but it works on my machine" probl
 
 ## Table of Contents
 - [The Problem](#the-problem)
-- [Workshop Structure](#workshop-structure)
 - [Getting Started](#getting-started)
+- [Workshop Structure](#workshop-structure)
 - [Step 1: Run Locally (The Problem)](#step-1-run-locally-the-problem)
 - [Step 2: Create a Dockerfile](#step-2-create-a-dockerfile)
 - [Step 3: Build Your Docker Image](#step-3-build-your-docker-image)
 - [Step 4: Run Your Container](#step-4-run-your-container)
 - [Step 5: Share Your Image (Docker Hub)](#step-5-share-your-image-docker-hub)
 - [Essential Docker Commands](#essential-docker-commands)
-- [Branch Structure](#branch-structure)
+- [What You've Learned](#what-youve-learned)
 
 ---
 
@@ -65,6 +65,24 @@ Docker packages your application with **ALL** its dependencies into a **containe
 
 ---
 
+## Getting Started
+
+### Prerequisites:
+- Docker installed ([Get Docker](https://docs.docker.com/get-docker/))
+- Git installed
+- Text editor of your choice
+
+### Clone and Navigate:
+```bash
+# Clone the repository
+git clone https://github.com/Adamo08/runs-on-my-machine-demo.git
+
+# Navigate to the project directory
+cd runs-on-my-machine-demo
+```
+
+---
+
 ## Workshop Structure
 
 ### Branches:
@@ -81,24 +99,6 @@ git checkout solution
 
 # Go back to main to continue the workshop
 git checkout main
-```
-
----
-
-## Getting Started
-
-### Prerequisites:
-- Docker installed ([Get Docker](https://docs.docker.com/get-docker/))
-- Git installed
-- Text editor of your choice
-
-### Clone and Navigate:
-```bash
-# Clone the repository
-git clone https://github.com/Adamo08/runs-on-my-machine-demo.git
-
-# Navigate to the project directory
-cd runs-on-my-machine-demo
 ```
 
 ---
@@ -381,28 +381,6 @@ docker cp container-name:/path/in/container /path/on/host
 
 # Copy file from host to container
 docker cp /path/on/host container-name:/path/in/container
-```
-
----
-
-## Branch Structure
-
-### `main` (Initial - You are here!)
-- Contains only application code
-- No Docker files
-- Starting point for the workshop
-
-### `solution` (If you get stuck)
-- Contains completed Dockerfile
-- Reference implementation
-- Switch here if you need help
-
-```bash
-# Switch to solution branch
-git checkout solution
-
-# Return to main branch to continue learning
-git checkout main
 ```
 
 ---
